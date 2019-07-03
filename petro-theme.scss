@@ -1,0 +1,30 @@
+/* PETROBRAS theme */
+:root {
+    /* Cores Oficiais */
+    --verde-pb: #008542;
+    --amarelo-pb: #fdc82f;
+    --azul-pb: #006298;
+    /* Cores Apoio */
+    --verde-agua: #00B2A9;
+    --verde-claro: #00B2A9;
+    --amarelo-claro: #FEDF00;
+    --laranja: #E17000;
+    --cinza-escuro: #675C53;
+    --cinza-claro: #BCBDBC;
+    --azul-escuro: #004165;
+    --azul-claro: #7D9AAA;
+    /* Outras Cores */
+    --cols-dest: #f7f7f7;
+    --quase-preto: #3a3a3a;
+
+    /* Gradiente Verde */
+    --bg-g-verde-wk: -webkit-linear-gradient(left,  var(--verde-pb) 50%,var(--verde-claro) 100%);
+    --bg-g-verde-lin: linear-gradient(to right,  var(--verde-pb) 50%,var(--verde-claro) 100%);
+    /* Gradiente Amarelo */
+    --bg-g-amarelo-wk: linear-gradient(to right, var(--amarelo-pb) 0%, var(--amarelo-claro) 100%);
+    --bg-g-amarelo-lin: -webkit-linear-gradient(left,  var(--amarelo-pb) 0%,var(--amarelo-claro) 100%);
+    /* Bordas decoradas */
+    --borda-pontilhada: 2px var(--cinza-claro) dotted;
+    --borda-tracado: 1px var(--azul-claro) dashed;
+
+}
